@@ -52,10 +52,12 @@ h3{font-family:Contract,serif;font-size:23px;line-height:1.5;margin:10px 0}
 .collection-note{margin:36px 0 0;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;text-align:center}
 .videos{display:grid;grid-template-columns:1fr 1fr;gap:24px}
 .video-card{background:var(--panel);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.video-card.featured{grid-column:1/-1}
 .video-card video{display:block;width:100%;aspect-ratio:16/9;background:#0c1419}
 .video-info{padding:23px 26px}
 .meta{font-size:11px;letter-spacing:.06em;color:#bca68f}
 .video-info p{font-size:14px;color:var(--muted);margin:10px 0 0}
+.video-link{display:inline-flex;align-items:center;gap:16px;margin-top:20px;font-size:12px;color:#e3bc9b}
 .note{font-size:11px;color:var(--muted);margin:20px 0 0}
 .chapters{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .chapter{border-bottom:1px solid #4c6063}

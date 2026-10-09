@@ -2,11 +2,15 @@
 
 **灰烬之中，重铸你的牌局。**
 
-[![灰契行者宣传主视觉](assets/key-art.png)](https://scott1743.github.io/huiqi-walker-promo/)
+[![灰契行者 · 40 秒中文叙事预告](assets/posters/narrative-poster.png)](https://scott1743.github.io/huiqi-walker-promo/#trailers)
+
+**[观看 40 秒中文叙事预告 →](https://scott1743.github.io/huiqi-walker-promo/#trailers)** · [直接打开预告 MP4](assets/videos/narrative.zh-CN.mp4)
+
+炉火咆哮，镜面复写，封卷仪式步步逼近。留下关键的一手，以契牌反击；带回战利品，重铸装备，再赴远征。中文旁白与原创配乐，将这段旅程连成一场牌局。
 
 《灰契行者》是一款单人装备构筑卡牌 RPG。深入余烬矿井、镜域工坊与封存档案，搜集会改变打法的装备：将旧灼烧化为邻接伤害，以护甲换取英雄出手，让符合条件的法术留下回声。保留手牌，布置随从，再携已经获得的永久战利品返回工坊，准备新的构筑。
 
-**[进入完整宣传页 →](https://scott1743.github.io/huiqi-walker-promo/)** · [观看实机视频](https://scott1743.github.io/huiqi-walker-promo/#trailers)
+**[进入完整宣传页 →](https://scott1743.github.io/huiqi-walker-promo/)** · [观看预告与实机展示](https://scott1743.github.io/huiqi-walker-promo/#trailers)
 
 ## 同一手契牌，另一种解法
 
@@ -25,9 +29,9 @@
 
 [浏览全部实机截图](assets/screenshots/) · [在宣传页中播放视频、查看图集](https://scott1743.github.io/huiqi-walker-promo/)
 
-MP4 文件：[战斗篇](assets/videos/combat.zh-CN.mp4) · [构筑成长篇](assets/videos/builds.zh-CN.mp4)
+MP4 文件：[中文叙事预告 · 40 秒](assets/videos/narrative.zh-CN.mp4) · [战斗篇](assets/videos/combat.zh-CN.mp4) · [构筑成长篇](assets/videos/builds.zh-CN.mp4)
 
-视频与截图来自游戏 **1.1.0** 的真实运行画面，使用隔离的展示进度录制。主视觉是宣传插画。更多来源与字体许可见 [媒体说明](MEDIA.md)。
+中文叙事预告以实机画面为主体，结合宣传原画与契牌动效，配有中文旁白和原创配乐。两支实机展示与 14 张截图来自游戏 **1.1.0** 的真实运行画面，使用隔离的展示进度录制。更多来源与字体许可见 [媒体说明](MEDIA.md)。
 
 ## 关注后续更新
 
@@ -37,7 +41,7 @@ MP4 文件：[战斗篇](assets/videos/combat.zh-CN.mp4) · [构筑成长篇](as
 
 | 内容 | 版本 |
 | --- | --- |
-| 宣传页 | **1.0.1**（标签 `v1.0.1`，2026-10-09） |
+| 宣传页 | **1.1.0**（标签 `v1.1.0`，2026-10-09） |
 | 本次展示的游戏 | **1.1.0** |
 
 宣传页版本用于记录网页、文案与媒体的更新；游戏版本用于标明画面对应的游戏内容。本仓库提供宣传页和媒体资料。版本数据见 [version.json](version.json)。
