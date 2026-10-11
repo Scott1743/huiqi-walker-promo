@@ -1,4 +1,4 @@
-# 灰契行者
+# 灰契行者 · 1.0.0 首发版宣发
 
 **灰烬之中，重铸你的牌局。**
 
@@ -31,17 +31,24 @@
 
 MP4 文件：[中文叙事预告 · 34 秒](assets/videos/narrative.zh-CN.mp4) · [战斗篇](assets/videos/combat.zh-CN.mp4) · [构筑成长篇](assets/videos/builds.zh-CN.mp4)
 
-三支宣发视频分别采用独立台词与中文旁白，配合原创音乐、快慢剪辑和稳定构图。实机视频与页面展示的 14 张截图来自游戏 **1.2.1** 的真实运行画面，使用隔离的展示进度录制。更多来源与字体许可见 [媒体说明](MEDIA.md)。
+三支宣发视频分别采用独立台词与中文旁白，配合原创音乐、快慢剪辑和稳定构图。实机视频与页面展示的 14 张截图用于游戏 **1.0.0 首发版** 宣发，使用隔离的展示进度录制。原素材开发包编号与录制来源保留在 [媒体说明](MEDIA.md)，字体许可也在其中列明。
 
 ## 关注后续更新
 
-喜欢这种围绕战利品重组牌局的冒险，可以在 [GitHub 仓库](https://github.com/Scott1743/huiqi-walker-promo) 点击 **Star**，或使用 **Watch** 关注宣传材料更新。版本记录见 [Releases](https://github.com/Scott1743/huiqi-walker-promo/releases) 与 [更新日志](CHANGELOG.md)。
+喜欢这种围绕战利品重组牌局的冒险，可以在 [GitHub 仓库](https://github.com/Scott1743/huiqi-walker-promo) 点击 **Star**，或使用 **Watch** 关注宣传材料更新。当前材料见 [1.0.0 宣发 Release](https://github.com/Scott1743/huiqi-walker-promo/releases/tag/promo-game-1.0.0-r1)，版本记录见 [更新日志](CHANGELOG.md)。
 
-## 当前版本
+[下载 1.0.0 视频与字幕包](https://github.com/Scott1743/huiqi-walker-promo/releases/download/promo-game-1.0.0-r1/promo-videos-1.0.0.zip) · [下载 1.0.0 离线宣传页](https://github.com/Scott1743/huiqi-walker-promo/releases/download/promo-game-1.0.0-r1/huiqi-walker-promo-1.0.0.zip)
 
-| 内容 | 版本 |
+## 当前宣发版本
+
+| 内容 | 版本与范围 |
 | --- | --- |
-| 宣传页 | **1.1.3**（2026-10-11） |
-| 本次展示的游戏 | **1.2.1** |
+| 当前游戏与宣发版本 | **1.0.0 首发版** |
+| 当前素材范围 | 48 张可收藏契牌、三章远征、12 件核心装备、10 套构筑参考 |
+| 素材修订 | r1（2026-10-11） |
+| 开发者 | **Scott1743** |
+| 后续版本 | **1.1.0，待发布**：无尽回廊、卡池扩充至 84 张 |
 
-宣传页版本用于记录网页、文案与媒体的更新；游戏版本用于标明画面对应的游戏内容。本仓库提供宣传页和媒体资料。版本数据见 [version.json](version.json)。
+发布顺序为 **1.0.0 → 1.1.0**。当前宣传页和视频介绍 1.0.0 首发内容，游戏正式发布日期待定。1.1.0 的新增玩法将另行制作对应版本的宣发材料。
+
+宣发版本跟随游戏版本，文字、剪辑和页面修订记入素材修订号。版本数据见 [version.json](version.json)，旧宣传页编号与真实 Git 标签保留在 [历史修订记录](history/marketing-revisions-before-1.0.0.md)。

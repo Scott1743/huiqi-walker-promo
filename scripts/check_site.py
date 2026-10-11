@@ -36,6 +36,10 @@ def main():
     page.feed(html)
     if version != release["site_version"]:
         errors.append("VERSION and version.json disagree")
+    if release["site_version"] != release["game_version"]:
+        errors.append("Marketing version must follow the game version")
+    if not isinstance(release.get("media_revision"), int) or release["media_revision"] < 1:
+        errors.append("media_revision must be a positive integer")
     for name, value in (("site-version", version), ("game-version", release["game_version"])):
         if page.meta.get(name) != value:
             errors.append(f"index.html {name} does not match version.json")
@@ -43,7 +47,7 @@ def main():
     references = [(ROOT / "index.html", ref) for ref in page.links]
     for source in list(ROOT.glob("*.css")) + [ROOT / "index.html"]:
         references.extend((source, ref) for ref in re.findall(r"url\(['\"]?([^'\")]+)", source.read_text()))
-    for source in ROOT.glob("*.md"):
+    for source in list(ROOT.glob("*.md")) + list((ROOT / "history").glob("*.md")):
         references.extend((source, ref) for ref in re.findall(r"\]\(([^)]+)\)", source.read_text()))
 
     for source, ref in references:
@@ -68,7 +72,7 @@ def main():
     if errors:
         raise SystemExit("\n".join(errors))
     total = sum(path.stat().st_size for path in files)
-    print(f"OK: site v{version}, game {release['game_version']}; {len(references)} references; {len(files)} files, {total / 1024 / 1024:.1f} MiB")
+    print(f"OK: game/marketing v{version}, media r{release['media_revision']}; {len(references)} references; {len(files)} files, {total / 1024 / 1024:.1f} MiB")
 
 
 if __name__ == "__main__":
