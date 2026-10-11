@@ -37,7 +37,7 @@ MP4 文件：[中文叙事预告 · 34 秒](assets/videos/narrative.zh-CN.mp4) �
 
 喜欢这种围绕战利品重组牌局的冒险，可以在 [GitHub 仓库](https://github.com/Scott1743/huiqi-walker-promo) 点击 **Star**，或使用 **Watch** 关注宣传材料更新。当前材料见 [1.0.0 宣发 Release](https://github.com/Scott1743/huiqi-walker-promo/releases/tag/promo-game-1.0.0-r1)，版本记录见 [更新日志](CHANGELOG.md)。
 
-[下载 1.0.0 视频与字幕包](https://github.com/Scott1743/huiqi-walker-promo/releases/download/promo-game-1.0.0-r1/promo-videos-1.0.0.zip) · [下载 1.0.0 离线宣传页](https://github.com/Scott1743/huiqi-walker-promo/releases/download/promo-game-1.0.0-r1/huiqi-walker-promo-1.0.0.zip)
+[下载 1.0.0 完整宣发包](https://github.com/Scott1743/huiqi-walker-promo/archive/refs/tags/promo-game-1.0.0-r1.zip)（含离线宣传页、三支视频、字幕、封面与截图）
 
 ## 当前宣发版本
 
