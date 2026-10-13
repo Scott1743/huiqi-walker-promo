@@ -1,5 +1,5 @@
-@font-face{font-family:Contract;src:url('assets/fonts/NotoSerifSC.woff?v=1.0.0-r2') format('woff');font-weight:200 900;font-display:swap}
-@font-face{font-family:Sans;src:url('assets/fonts/NotoSansSC.woff?v=1.0.0-r2') format('woff');font-weight:100 900;font-display:swap}
+@font-face{font-family:Contract;src:url('assets/fonts/NotoSerifSC.woff?v=1.0.0-r3') format('woff');font-weight:200 900;font-display:swap}
+@font-face{font-family:Sans;src:url('assets/fonts/NotoSansSC.woff?v=1.0.0-r3') format('woff');font-weight:100 900;font-display:swap}
 :root{--ink:#182329;--paper:#d4d0bd;--rust:#ae5647;--muted:#b1bcba;--line:#34464b;--panel:#202f35}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:110px}
@@ -97,3 +97,5 @@ footer a{color:#d8b394}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
 .meta span{white-space:nowrap}
+
+.video-info h3{text-wrap:balance}

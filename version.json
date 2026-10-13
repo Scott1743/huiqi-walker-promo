@@ -2,8 +2,8 @@
   "site_version": "1.0.0",
   "game_version": "1.0.0",
   "release_status": "pre_release",
-  "media_revision": 2,
-  "updated_at": "2026-10-13",
+  "media_revision": 3,
+  "updated_at": "2026-10-14",
   "developer": "Scott1743",
   "scope": {
     "collectible_cards": 48,

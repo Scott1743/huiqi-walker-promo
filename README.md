@@ -6,19 +6,11 @@
 
 **[观看 34 秒中文叙事预告 →](https://scott1743.github.io/huiqi-walker-promo/#trailers)** · [直接打开预告 MP4](assets/videos/narrative.zh-CN.mp4)
 
-矿井的炉火，烧不尽你的野心。带着二十张契牌挑战首领，夺下战利品，再向更深处出发。主预告、战斗篇、构筑篇分别采用独立脚本与全新中文配音。
+矿井的炉火，烧不尽你的野心。带着二十张契牌挑战首领，夺下战利品，再向更深处出发。一支主预告、两支副视频：主预告讲完整远征，战斗篇讲决策，构筑篇讲成长。新版开包动作与音效已经剪入主预告和构筑篇。
 
 《灰契行者》是一款单人装备构筑卡牌 RPG。深入余烬矿井、镜域工坊与封存档案，搜集会改变打法的装备：将旧灼烧化为邻接伤害，以护甲换取英雄出手，让符合条件的法术留下回声。保留手牌，布置随从，再携已经获得的永久战利品返回工坊，准备新的构筑。
 
 **[进入完整宣传页 →](https://scott1743.github.io/huiqi-walker-promo/)** · [观看预告与实机展示](https://scott1743.github.io/huiqi-walker-promo/#trailers)
-
-## 新版开包 · 原速实机
-
-[![逐张翻牌与品质揭晓](assets/screenshots/16-pack-opening.png)](https://scott1743.github.io/huiqi-walker-promo/#pack-opening)
-
-**[观看 7.6 秒开包特写 →](https://scott1743.github.io/huiqi-walker-promo/#pack-opening)** · [下载 1080p / 60fps MP4](assets/videos/packs.zh-CN.mp4)
-
-封蜡蓄力、破封展开、逐张翻牌。打开声音，听见每次揭晓。主预告与构筑篇同步换入新版开包镜头，战斗篇保持原剪辑。使用预置首发卡牌展示品质反馈，不代表实际掉率。
 
 ## 同一手契牌，另一种解法
 
@@ -45,9 +37,9 @@ MP4 文件：[中文叙事预告 · 34 秒](assets/videos/narrative.zh-CN.mp4) �
 
 ## 关注后续更新
 
-喜欢这种围绕战利品重组牌局的冒险，可以在 [GitHub 仓库](https://github.com/Scott1743/huiqi-walker-promo) 点击 **Star**，或使用 **Watch** 关注宣传材料更新。当前材料见 [1.0.0 宣发 Release](https://github.com/Scott1743/huiqi-walker-promo/releases/tag/promo-game-1.0.0-r2)，版本记录见 [更新日志](CHANGELOG.md)。
+喜欢这种围绕战利品重组牌局的冒险，可以在 [GitHub 仓库](https://github.com/Scott1743/huiqi-walker-promo) 点击 **Star**，或使用 **Watch** 关注宣传材料更新。当前材料见 [1.0.0 宣发 Release](https://github.com/Scott1743/huiqi-walker-promo/releases/tag/promo-game-1.0.0-r3)，版本记录见 [更新日志](CHANGELOG.md)。
 
-[下载 1.0.0 完整宣发包](https://github.com/Scott1743/huiqi-walker-promo/archive/refs/tags/promo-game-1.0.0-r2.zip)（含离线宣传页、四支视频、字幕、封面、16 张截图与中英文宣传文案）
+[下载 1.0.0 完整宣发包](https://github.com/Scott1743/huiqi-walker-promo/archive/refs/tags/promo-game-1.0.0-r3.zip)（含离线宣传页、三支视频、字幕、封面、16 张截图与中英文宣传文案）
 
 ## 当前宣发版本
 
@@ -55,7 +47,7 @@ MP4 文件：[中文叙事预告 · 34 秒](assets/videos/narrative.zh-CN.mp4) �
 | --- | --- |
 | 当前游戏与宣发版本 | **1.0.0 首发版** |
 | 当前素材范围 | 48 张可收藏契牌、三章远征、12 件核心装备、10 套构筑参考 |
-| 素材修订 | r2（2026-10-13） |
+| 素材修订 | r3（2026-10-14） |
 | 开发者 | **Scott1743** |
 | 后续版本 | **1.1.0，待发布**：无尽回廊、卡池扩充至 84 张 |
 

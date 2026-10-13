@@ -15,9 +15,15 @@ class Page(HTMLParser):
         self.links = []
         self.ids = set()
         self.meta = {}
+        self.video_count = 0
+        self.video_cards = []
 
     def handle_starttag(self, tag, attributes):
         attrs = dict(attributes)
+        if tag == "video":
+            self.video_count += 1
+        if tag == "article" and "video-card" in attrs.get("class", "").split():
+            self.video_cards.append((attrs.get("id"), "featured" in attrs["class"].split()))
         if "id" in attrs:
             self.ids.add(attrs["id"])
         for name in ("src", "href", "poster"):
@@ -34,6 +40,14 @@ def main():
     page = Page()
     html = (ROOT / "index.html").read_text()
     page.feed(html)
+    if page.video_count != 3 or page.video_cards != [
+        ("video-narrative", True), ("video-combat", False), ("video-builds", False)
+    ]:
+        errors.append("Show exactly one main trailer and two supporting videos, in narrative/combat/builds order")
+    if {p.name for p in (ROOT / "assets/videos").glob("*.mp4")} != {
+        "narrative.zh-CN.mp4", "combat.zh-CN.mp4", "builds.zh-CN.mp4"
+    }:
+        errors.append("Published video files must match the three-film layout")
     if version != release["site_version"]:
         errors.append("VERSION and version.json disagree")
     if release["site_version"] != release["game_version"]:

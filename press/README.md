@@ -1,6 +1,6 @@
-# 宣传文案 · 素材修订 r2
+# 宣传文案 · 素材修订 r3
 
-游戏 1.0.0 首发准备中 · Scott1743 · 2026-10-13。
+游戏 1.0.0 首发准备中 · Scott1743 · 2026-10-14。
 
 - 商店正文：[中文](about.zh-CN.md) / [English](about.en.md)
 - Steam BBCode：[中文](store.zh-CN.bbcode.txt) / [English](store.en.bbcode.txt)
