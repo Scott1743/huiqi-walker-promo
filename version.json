@@ -2,8 +2,8 @@
   "site_version": "1.0.0",
   "game_version": "1.0.0",
   "release_status": "pre_release",
-  "media_revision": 1,
-  "updated_at": "2026-10-11",
+  "media_revision": 2,
+  "updated_at": "2026-10-13",
   "developer": "Scott1743",
   "scope": {
     "collectible_cards": 48,
@@ -28,5 +28,14 @@
     ]
   },
   "site_url": "https://scott1743.github.io/huiqi-walker-promo/",
-  "repository_url": "https://github.com/Scott1743/huiqi-walker-promo"
+  "repository_url": "https://github.com/Scott1743/huiqi-walker-promo",
+  "additional_recordings": [
+    {
+      "recorded_at": "2026-10-13",
+      "build_version": "1.1.0 working runtime",
+      "scope": "仅展示首发原有卡牌及新版开包表现，不含扩展卡池或无尽玩法。",
+      "curated_roll": true,
+      "notes": "隔离展示进度与预置五张卡用于展示各品质反馈，不代表实际掉率；未改动玩家存档。"
+    }
+  ]
 }
