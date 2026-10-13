@@ -37,9 +37,9 @@ MP4 文件：[中文叙事预告 · 34 秒](assets/videos/narrative.zh-CN.mp4) �
 
 ## 关注后续更新
 
-喜欢这种围绕战利品重组牌局的冒险，可以在 [GitHub 仓库](https://github.com/Scott1743/huiqi-walker-promo) 点击 **Star**，或使用 **Watch** 关注宣传材料更新。当前材料见 [1.0.0 宣发 Release](https://github.com/Scott1743/huiqi-walker-promo/releases/tag/promo-game-1.0.0-r3)，版本记录见 [更新日志](CHANGELOG.md)。
+喜欢这种围绕战利品重组牌局的冒险，可以在 [GitHub 仓库](https://github.com/Scott1743/huiqi-walker-promo) 点击 **Star**，或使用 **Watch** 关注宣传材料更新。当前材料见 [1.0.0 宣发 Release](https://github.com/Scott1743/huiqi-walker-promo/releases/tag/promo-game-1.0.0-r4)，版本记录见 [更新日志](CHANGELOG.md)。
 
-[下载 1.0.0 完整宣发包](https://github.com/Scott1743/huiqi-walker-promo/archive/refs/tags/promo-game-1.0.0-r3.zip)（含离线宣传页、三支视频、字幕、封面、16 张截图与中英文宣传文案）
+[下载 1.0.0 完整宣发包](https://github.com/Scott1743/huiqi-walker-promo/archive/refs/tags/promo-game-1.0.0-r4.zip)（含离线宣传页、三支视频、字幕、封面、16 张截图与中英文宣传文案）
 
 ## 当前宣发版本
 
@@ -47,7 +47,7 @@ MP4 文件：[中文叙事预告 · 34 秒](assets/videos/narrative.zh-CN.mp4) �
 | --- | --- |
 | 当前游戏与宣发版本 | **1.0.0 首发版** |
 | 当前素材范围 | 48 张可收藏契牌、三章远征、12 件核心装备、10 套构筑参考 |
-| 素材修订 | r3（2026-10-14） |
+| 素材修订 | r4（2026-10-14） |
 | 开发者 | **Scott1743** |
 | 后续版本 | **1.1.0，待发布**：无尽回廊、卡池扩充至 84 张 |
 

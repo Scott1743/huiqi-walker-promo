@@ -2,7 +2,7 @@
   "site_version": "1.0.0",
   "game_version": "1.0.0",
   "release_status": "pre_release",
-  "media_revision": 3,
+  "media_revision": 4,
   "updated_at": "2026-10-14",
   "developer": "Scott1743",
   "scope": {
@@ -36,6 +36,13 @@
       "scope": "仅展示首发原有卡牌及新版开包表现，不含扩展卡池或无尽玩法。",
       "curated_roll": true,
       "notes": "隔离展示进度与预置五张卡用于展示各品质反馈，不代表实际掉率；未改动玩家存档。"
+    },
+    {
+      "recorded_at": "2026-10-14",
+      "build_version": "1.1.0 isolated capture runtime",
+      "scope": "重录新版青铜余烬牌背的开包镜头，仅使用首发卡牌。",
+      "curated_roll": true,
+      "notes": "沿用已审核捕获副本，只更新牌背纹理引用；动作节奏、规则与音轨保持一致。"
     }
   ]
 }
