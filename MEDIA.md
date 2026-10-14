@@ -1,6 +1,6 @@
 # Media and recording notes
 
-2026-10-14 · 灰契行者 · Scott1743 · 1.1.0 development content · Media r1.
+2026-10-14 · 灰契行者 · Scott1743 · 1.1.0 development content · Media r2.
 
 ## Two-film campaign
 

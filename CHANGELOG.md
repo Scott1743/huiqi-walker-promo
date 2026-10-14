@@ -1,5 +1,11 @@
 # 灰契行者宣发更新日志
 
+## 1.1.0 development content · Media r2 · 2026-10-14
+
+- Re-record the combat source to correct targeting lines that followed the desktop pointer outside the captured viewport.
+- Replace the affected hero armor attack, manual minion trade, and Combo-to-Rush sequences in both films.
+- Advance the asset cache key to `1.1.0-r2`. Both films pass full decoding and visual checks of the corrected attack previews.
+
 ## 1.1.0 development content · Media r1 · 2026-10-14
 
 - Replace the current three-film presentation with one main trailer and one combat / core gameplay guide.

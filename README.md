@@ -1,6 +1,6 @@
 # 灰契行者 · Main trailer & gameplay
 
-**A single-player, loot-driven card RPG by Scott1743.** Current 1.1.0 development content · Media r1 · 2026-10-14. The game is in development; this is a media update, not a game release.
+**A single-player, loot-driven card RPG by Scott1743.** Current 1.1.0 development content · Media r2 · 2026-10-14. The game is in development; this is a media update, not a game release.
 
 [Watch the two films](https://scott1743.github.io/huiqi-walker-promo/#trailers) · [Explore the gameplay](https://scott1743.github.io/huiqi-walker-promo/#features) · [中文版文案](press/about.zh-CN.md)
 

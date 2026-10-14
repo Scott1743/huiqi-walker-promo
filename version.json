@@ -2,7 +2,7 @@
   "site_version": "1.1.0",
   "game_version": "1.1.0",
   "release_status": "pre_release",
-  "media_revision": 1,
+  "media_revision": 2,
   "updated_at": "2026-10-14",
   "developer": "Scott1743",
   "scope": {
@@ -60,8 +60,8 @@
         }
       },
       "duration_seconds": 100,
-      "bytes": 24283749,
-      "sha256": "af24b8030feaf70a25d72f6696654579d2e87b32bb521fad5702f06ace32113f",
+      "bytes": 24089300,
+      "sha256": "c2f9d8ffdf3d44335ab942b74f0fd500d32b5282ee991e67a3e13f970232ec34",
       "fps": 30,
       "width": 1920,
       "height": 1080
@@ -86,8 +86,8 @@
         }
       },
       "duration_seconds": 143.7,
-      "bytes": 33839195,
-      "sha256": "44e0b24719c82e7ceaddff31d529a50e52c1e6cc8683780c4a3753d0de741030",
+      "bytes": 33683464,
+      "sha256": "c65d1e3a073dd14731be677f6dec8daa3b55c5607a535cbd56aba81085425ac4",
       "fps": 30,
       "width": 1920,
       "height": 1080

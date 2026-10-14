@@ -8,7 +8,7 @@ The current page presents **1.1.0 development content**, with one main trailer a
 
 Two current video files are `assets/videos/main.en.mp4` and `assets/videos/gameplay.en.mp4`. Each has English narration, burned English + Chinese subtitles, a poster, and English / Chinese / bilingual SRT and VTT files. Additional caption tracks must not be `default`, because the picture already contains subtitles.
 
-Old media may remain in the repository for historical compatibility. It must not appear as a third current film or current download option. Existing historical tags remain immutable. Any new tag must be unique, for example `promo-game-1.1.0-r1`; no release link should be advertised before it exists.
+Old media may remain in the repository for historical compatibility. It must not appear as a third current film or current download option. Existing historical tags remain immutable. Any new tag must be unique, for example `promo-game-1.1.0-r2`; no release link should be advertised before it exists.
 
 ## Verify and deploy
 
