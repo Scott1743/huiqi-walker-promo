@@ -1,48 +1,111 @@
 {
-  "site_version": "1.0.0",
-  "game_version": "1.0.0",
+  "site_version": "1.1.0",
+  "game_version": "1.1.0",
   "release_status": "pre_release",
-  "media_revision": 4,
+  "media_revision": 1,
   "updated_at": "2026-10-14",
   "developer": "Scott1743",
   "scope": {
-    "collectible_cards": 48,
-    "token_cards": 6,
+    "collectible_cards": 96,
     "chapters": 3,
+    "equipment_bases": 16,
     "core_equipment": 12,
+    "endless_mode": true,
+    "endless_unlock": "Clear each of the three chapters on Story difficulty",
+    "animated_card_backs": 10,
+    "classic_card_backs": 1,
+    "card_backs_cosmetic_only": true,
+    "equipment_types": 28,
+    "token_cards": 6,
+    "legendary_cards": 19,
+    "legendary_spells": 6,
     "deck_presets": 10,
-    "endless_mode": false
+    "equipment_affixes": 16
   },
-  "source_recording": {
-    "build_version": "1.2.1",
-    "version_scheme": "pre_release_build_number",
-    "recorded_at": "2026-10-10",
-    "notes": "正式版本编号统一前的开发包录制编号；现有素材用于游戏 1.0.0 首发宣发。"
-  },
-  "next_game_release": {
-    "version": "1.1.0",
-    "status": "planned",
-    "highlights": [
-      "无尽回廊",
-      "可收藏契牌扩充至 84 张"
+  "language": {
+    "default_page": "en",
+    "page_languages": [
+      "en",
+      "zh-CN"
+    ],
+    "voiceover": "en",
+    "burned_subtitles": [
+      "en",
+      "zh-CN"
+    ],
+    "optional_caption_tracks": [
+      "en",
+      "zh-CN",
+      "bilingual"
     ]
   },
-  "site_url": "https://scott1743.github.io/huiqi-walker-promo/",
-  "repository_url": "https://github.com/Scott1743/huiqi-walker-promo",
-  "additional_recordings": [
+  "videos": [
     {
-      "recorded_at": "2026-10-13",
-      "build_version": "1.1.0 working runtime",
-      "scope": "仅展示首发原有卡牌及新版开包表现，不含扩展卡池或无尽玩法。",
-      "curated_roll": true,
-      "notes": "隔离展示进度与预置五张卡用于展示各品质反馈，不代表实际掉率；未改动玩家存档。"
+      "id": "main",
+      "role": "main",
+      "path": "assets/videos/main.en.mp4",
+      "poster": "assets/posters/main-poster.png",
+      "subtitles": {
+        "en": {
+          "srt": "assets/subtitles/main.en.srt",
+          "vtt": "assets/subtitles/main.en.vtt"
+        },
+        "zh-CN": {
+          "srt": "assets/subtitles/main.zh-CN.srt",
+          "vtt": "assets/subtitles/main.zh-CN.vtt"
+        },
+        "bilingual": {
+          "srt": "assets/subtitles/main.bilingual.srt",
+          "vtt": "assets/subtitles/main.bilingual.vtt"
+        }
+      },
+      "duration_seconds": 100,
+      "bytes": 24283749,
+      "sha256": "af24b8030feaf70a25d72f6696654579d2e87b32bb521fad5702f06ace32113f",
+      "fps": 30,
+      "width": 1920,
+      "height": 1080
     },
     {
-      "recorded_at": "2026-10-14",
-      "build_version": "1.1.0 isolated capture runtime",
-      "scope": "重录新版青铜余烬牌背的开包镜头，仅使用首发卡牌。",
-      "curated_roll": true,
-      "notes": "沿用已审核捕获副本，只更新牌背纹理引用；动作节奏、规则与音轨保持一致。"
+      "id": "gameplay",
+      "role": "gameplay",
+      "path": "assets/videos/gameplay.en.mp4",
+      "poster": "assets/posters/gameplay-poster.png",
+      "subtitles": {
+        "en": {
+          "srt": "assets/subtitles/gameplay.en.srt",
+          "vtt": "assets/subtitles/gameplay.en.vtt"
+        },
+        "zh-CN": {
+          "srt": "assets/subtitles/gameplay.zh-CN.srt",
+          "vtt": "assets/subtitles/gameplay.zh-CN.vtt"
+        },
+        "bilingual": {
+          "srt": "assets/subtitles/gameplay.bilingual.srt",
+          "vtt": "assets/subtitles/gameplay.bilingual.vtt"
+        }
+      },
+      "duration_seconds": 143.7,
+      "bytes": 33839195,
+      "sha256": "44e0b24719c82e7ceaddff31d529a50e52c1e6cc8683780c4a3753d0de741030",
+      "fps": 30,
+      "width": 1920,
+      "height": 1080
     }
-  ]
+  ],
+  "source_recording": {
+    "build_version": "1.1.0",
+    "recorded_at": "2026-10-14",
+    "notes": "Current development footage captured in isolated demonstration progress. Editing and staged examples do not represent continuous play or random drop rates."
+  },
+  "gallery_provenance": {
+    "recorded_at": [
+      "2026-10-10",
+      "2026-10-13",
+      "2026-10-14"
+    ],
+    "notes": "Eight current English screenshots followed by eight earlier Chinese-interface development captures. See screenshots.json and MEDIA.md."
+  },
+  "site_url": "https://scott1743.github.io/huiqi-walker-promo/",
+  "repository_url": "https://github.com/Scott1743/huiqi-walker-promo"
 }

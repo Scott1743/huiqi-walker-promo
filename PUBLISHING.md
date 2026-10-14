@@ -1,27 +1,22 @@
-# 宣传页维护
+# Publishing the promotional website
 
-在线地址：[灰契行者](https://scott1743.github.io/huiqi-walker-promo/)。GitHub Pages 使用本仓库 `main` 分支的根目录，入口为 `index.html`，提交推送后自动重新发布。本地修改完成不代表线上页面已更新。
+Website: <https://scott1743.github.io/huiqi-walker-promo/>. This independent repository publishes its `main` branch root through GitHub Pages. A local file update is not an online deployment.
 
-## 本地预览
+## Content and versioning
 
-在仓库根目录执行：
+The current page presents **1.1.0 development content**, with one main trailer and one gameplay guide. `release_status` stays `pre_release`; publishing media does not release the game. `VERSION`, `version.json`, and the HTML version metadata must agree. Editing within a game version increments `media_revision` and the asset cache key.
 
-```sh
-python3 -m http.server 8335 --bind 127.0.0.1
-```
+Two current video files are `assets/videos/main.en.mp4` and `assets/videos/gameplay.en.mp4`. Each has English narration, burned English + Chinese subtitles, a poster, and English / Chinese / bilingual SRT and VTT files. Additional caption tracks must not be `default`, because the picture already contains subtitles.
 
-打开 `http://127.0.0.1:8335/`。上线前执行 `python3 scripts/check_site.py` 检查资源引用和版本一致性，并在浏览器检查桌面、手机布局、截图筛选、原图切换和视频播放。
+Old media may remain in the repository for historical compatibility. It must not appear as a third current film or current download option. Existing historical tags remain immutable. Any new tag must be unique, for example `promo-game-1.1.0-r1`; no release link should be advertised before it exists.
 
-## 按游戏版本宣发
+## Verify and deploy
 
-正式游戏发布顺序为 **1.0.0 → 1.1.0**。当前材料对应 1.0.0 首发：48 张可收藏契牌、三章远征、12 件核心装备、10 套构筑参考。1.1.0 再介绍无尽回廊与扩充至 84 张的卡池。发布日期待定。
+1. Synchronize `index.html`, `site.js`, `styles.css`, `VERSION`, `version.json`, the two films, their posters and captions, `README.md`, `MEDIA.md`, `press/`, and `CHANGELOG.md`.
+2. Run `python3 scripts/check_site.py`. While media is still being produced, `--allow-missing-media` checks page structure but returns an explicitly incomplete result; it is **not** a release check.
+3. Serve the directory locally with a server supporting byte ranges. Check the English default and Chinese switch, desktop/mobile layout, image filtering and keyboard navigation, both videos' play/seek/audio, and all optional caption tracks. Language changes must preserve media elements and playback position.
+4. Keep every tracked file below 100 MiB. Use H.264 / yuv420p + AAC and MP4 faststart for browser playback; retain large masters outside this repository.
+5. Review the independent repository diff and asset list, then commit and push normally to `main`. Do not commit the unrelated game workspace or rewrite existing history.
+6. Verify the latest Pages build is `built` at the new commit. Fetch the public `version.json` and both video files; compare their sizes and SHA-256 hashes with the local delivery. Confirm public-page playback before reporting the update live.
 
-`VERSION`、`version.json` 的 `site_version` 与 `game_version` 均跟随所宣传的游戏版本。同一游戏版本下修改文案、剪辑或页面时，只递增 `media_revision`（r1、r2……）并更新 `updated_at`。`source_recording` 另存素材录制时的开发包编号，保留真实来源。
-
-1. 同步 `VERSION`、`version.json`、`index.html` 中的版本元数据及可见文字、`README.md`、`MEDIA.md` 和 `CHANGELOG.md`。修改样式或脚本时，资源查询参数使用游戏版本与素材修订号，例如 `1.0.0-r1`。
-2. 更换游戏宣发版本前，为旧版保存独立媒体包与说明。1.0.0 的媒体包应继续标明 48 张卡与三章远征；1.1.0 的无尽玩法与新增卡牌使用对应版本素材。
-3. 更新必要的宣传素材，保留字体许可证；检查单个文件小于 100 MiB。
-4. 完成静态检查和浏览器预览后，再按发布安排提交、推送 `main`。若发布 GitHub Release，使用不会与旧标签冲突的名称，例如 `promo-game-1.0.0-r1`。
-5. 在 GitHub 的部署记录和在线页确认最新版本已生效，并区分宣传材料发布日与游戏正式发布日期。
-
-历史标签 `v1.0.0`、`v1.0.1`、`v1.1.0`、`v1.1.3` 属于过去的宣传页独立编号，保留原指向，不覆盖、不重新用于游戏版本。对应原始记录见 [历史修订记录](history/marketing-revisions-before-1.0.0.md)。
+The old version numbers `v1.0.0`, `v1.0.1`, `v1.1.0`, and `v1.1.3` were historical marketing revisions, not game release versions. See [historical numbering](history/marketing-revisions-before-1.0.0.md).

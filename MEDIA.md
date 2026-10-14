@@ -1,36 +1,39 @@
-# 媒体来源与录制说明
+# Media and recording notes
 
-当前材料用于《灰契行者》**1.0.0 首发准备**：48 张可收藏契牌、6 种衍生牌、三章远征、12 件核心装备与十套构筑参考。开发者 Scott1743。素材修订 r4，更新于 2026-10-14；游戏正式发布日期待定。后续扩展卡池与无尽回廊不属于本版宣传范围。
+2026-10-14 · 灰契行者 · Scott1743 · 1.1.0 development content · Media r1.
 
-## 本次更新
+## Two-film campaign
 
-2026-10-14 重录所有开包镜头，以新版青铜边框、余烬晶石牌背替换旧线框牌背，并同步翻牌过程截图。成片时长和音轨保持一致。
+The current campaign consists of a main marketing trailer and a combat / core gameplay guide. Both have English narration and English + Chinese subtitles burned into the picture. The website offers separate English, Chinese, and bilingual caption tracks without enabling an additional track by default.
 
-主预告 34 秒 / 22 镜头、构筑篇 30 秒 / 19 镜头换入新版开包镜头与对应游戏音效，沿用独立中文旁白和原创配乐。战斗篇 27 秒 / 19 镜头保持原成片。三片输出为原生 1920×1080、30fps H.264 / AAC，包含变速剪辑、固定构图、营销字卡和字幕。
+The films cover the current full development scope: 96 collectible cards, four equipment slots, 28 equipment types: 16 bases and 12 core items, three expedition chapters, Endless, and 10 animated card backs alongside the classic default. This media update does not announce a game release.
 
-宣传页与当前下载包统一为一支主预告、两支副视频。开包作为主预告与构筑篇的镜头元素，独立开包片已撤下。更新卡包商店与结算截图，新增逐张翻牌截图，当前共 16 张原生 1920×1080 实机截图。
+- [Main trailer](assets/videos/main.en.mp4) · [English SRT](assets/subtitles/main.en.srt) · [Chinese SRT](assets/subtitles/main.zh-CN.srt) · [Bilingual SRT](assets/subtitles/main.bilingual.srt).
+- [Gameplay guide](assets/videos/gameplay.en.mp4) · [English SRT](assets/subtitles/gameplay.en.srt) · [Chinese SRT](assets/subtitles/gameplay.zh-CN.srt) · [Bilingual SRT](assets/subtitles/gameplay.bilingual.srt).
 
-## 实机来源
+## Gameplay capture
 
-远征、战斗、装备与组牌画面来自 2026-10-10 的冻结开发包，其内部编号为版本整理前的 **1.2.1**。该编号只用于溯源，不表示游戏正式发布过 1.2.1。旁白于 2026-10-11 制作。
+New footage is recorded from an isolated copy of the current 1.1.0 development runtime. Demonstration progress, card collections, loadouts, and battle setups are separate from the player's save. Individual examples and edited transitions do not imply continuous normal play or the time required to complete the game.
 
-新版开包于 2026-10-13 从当前开发工作区的隔离副本录制，内部运行时编号为 **1.1.0**。片段只展示首发已有卡牌及新版开包表现，不展示扩展卡池或无尽玩法。五张卡牌预置为 N01、F06、F09、G01、F12，用于呈现普通、稀有、史诗、传奇反馈与超额返金，**不代表实际随机掉率**。
+Pack sequences may use prepared outcomes to make rarity feedback readable. They do not state random drop rates or promise five new cards. Only copies above the collection limit convert to gold.
 
-所有捕获均使用隔离展示进度；新开包由游戏原生界面、动画、音效与收藏结算运行，不读取或修改玩家存档。不同镜头的收藏、装备与战斗状态独立布置，不代表普通玩家连续通关耗时，也不表示一个卡包即可集齐收藏。
+The two films use the English game interface. The gallery begins with eight new English-interface screenshots from this 2026-10-14 capture, followed by eight earlier development screenshots with Chinese UI. The earlier captures are visual references, not evidence of the current card count or mode availability. Source mappings and hashes are recorded in screenshots.json. The old internal recording number 1.2.1 predates the game's version-numbering cleanup and is not a released game version.
 
-可编辑来源在游戏项目的 `steam/marketing/source/relaunch-1.2.1/` 与 `steam/marketing/source/pack-refresh-20261013/`、`steam/marketing/source/pack-refresh-20261014/`，保留冻结哈希、捕获脚本、原速母素材、时间线和校验。旧升级与重铸截图继续保留在 [历史截图目录](history/screenshots/README.md)。
+The production project keeps scripts, isolated-capture provenance, the English voice recordings, subtitle timing, edit decisions, and media verification in `steam/marketing/source/two-video-20261014/`. Large masters and private capture progress are not included in this static website.
 
-## 音频与宣传插画
+## Audio and art
 
-三支预告使用三条独立脚本与 MiniMax speech-2.8-hd 官方预置音色 male-qn-badao-jingpin 制作的中文旁白；未克隆真人声音。旁白和配乐属于宣发制作，不是新增游戏对白。新版开包音效来自项目内的原创素材。
+English narration uses MiniMax speech-2.8-hd with the provider's preset English_Trustworthy_Man voice. It is promotional narration, not in-game character dialogue, and does not clone a real person's voice. Music and game sounds are drawn from the project's existing original production assets. Production records retain the exact final mix and sources.
 
-`assets/key-art.png` 沿用通过内置 imagegen 生成的原创无字宣传插画，1672×941，用于表达黑墨契书气氛，不作为实机截图。游戏名和宣传语由网页文字显示。图标沿用项目素材；没有使用其他商业游戏的截图、品牌或标识。
+The existing key art is original AI-generated promotional illustration; it is not a gameplay screenshot. The Chinese title 灰契行者 remains the confirmed brand. No English product name is announced. No third-party game screenshots, brands, or logos are used.
 
-## 字体
+Card backs are cosmetic: they do not change battle stats or draw order. Endless unlocks after each of the three chapters has been cleared on Story; a new run locks its deck and loadout. Settled points can be redeemed without reducing the personal best.
 
-宋体标题与黑体正文分别使用 **Noto Serif SC**、**Noto Sans SC** 的离线 WOFF 子集。本次补齐新增文案中的汉字。字体采用 SIL Open Font License 1.1：
+## Fonts
 
-- [Noto Sans SC 字体许可](assets/fonts/NotoSansSC-OFL.txt)
-- [Noto Serif SC 字体许可](assets/fonts/NotoSerifSC-OFL.txt)
+Noto Serif SC and Noto Sans SC use local WOFF subsets under the SIL Open Font License 1.1. English headings also use the browser's available Georgia serif face.
 
-字体许可仅适用于字体文件；本说明不构成对游戏或其他媒体的整体许可授予。
+- [Noto Sans SC license](assets/fonts/NotoSansSC-OFL.txt)
+- [Noto Serif SC license](assets/fonts/NotoSerifSC-OFL.txt)
+
+Font licenses apply to the font files. They are not a blanket license for game or promotional media.

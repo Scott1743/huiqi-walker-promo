@@ -1,45 +1,44 @@
-[h2]From the ashes, reforge your strategy[/h2]
+[h1]灰契行者[/h1]
 
-The same hand can offer a different answer when a new item joins your loadout.
+[h2]One new weapon. A whole new game plan.[/h2]
 
-In 灰契行者, the spoils of an expedition become part of your next build. Find a piece of gear worth keeping and pair it with familiar cards. A battle that once held you back may reveal a new opening.
+A single-player, loot-driven card RPG. Build a twenty-card deck, find the gear that makes it yours, and carry your growing collection into the next battle.
 
-[h2]Give your equipment a place in your tactics[/h2]
+[h2]Keep the cards. Choose the moment.[/h2]
 
-Use a wildfire staff to consume stored burn and deal damage to adjacent minions. Wield a siege hammer and weigh the armor you need to survive against the armor you can spend on a hero attack. With a mirror baton, an eligible spell leaves an echo: reserve the energy and extend your turn with a second cast.
+Regular cards stay in your hand between turns. Manage energy, read enemy intent, and decide which minions to trade across five friendly slots. Play spells in the right order, create temporary Echoes, and turn Combo into an opening. Unused Echoes disappear at the end of the turn.
 
-Gear changes targets, positioning, card order, and the way you spend your resources. Shape a deck around a core item, or find the equipment that brings your favorite cards together.
+[h2]Find the equipment that changes your plan.[/h2]
 
-[h2]Hold your hand. Choose your moment.[/h2]
+Your weapon, armor, trinket, and seal work together. A core weapon can spread burn damage to adjacent minions, spend armor on a hero attack, or create an Echo of an eligible spell. Affixes support the way you want to play. Compare your drops and build around the combinations you keep.
 
-Regular cards stay in your hand between turns. Stabilize the board, keep a key spell, and wait for an opening worth your resources.
+There are 28 equipment types: 16 equipment bases and 12 core items. These are different loadouts, not three weapons equipped at once.
 
-Across five minion slots, taunt protects your setup and careful trades clear a path. Bring fire, armor, and echoes together in a strategy of your own. Temporary echoes disappear at the end of the turn. You must balance what can wait against what needs to happen now.
+[h2]Bring something back.[/h2]
 
-[h2]The expedition ends. Your progress remains.[/h2]
+Cards and gear you have collected stay yours, even if an expedition ends in defeat or retreat. Clear a chapter for gold and a choice of three rewards. Buy five-card packs with earned gold, break the seal, and reveal the results one card at a time. Copies above the collection limit become gold.
 
-Loot already in your inventory stays yours, even if you fall in battle or retreat.
+The current collection contains 96 cards. Find new combinations, edit your twenty-card deck, and prepare for another expedition.
 
-Return to the workshop, compare new equipment, and adjust your cards. After clearing a chapter, choose from three rewards offering equipment or replacement gold. Spend your gold on card packs and open new cards to expand your collection and your next build.
+[h2]Three chapters. Different ways to break through.[/h2]
 
-Every return leaves something to carry into the next battle.
+In the Ember Mines, destroy the kilns powering the boss. In the Mirror Workshop, break mirrors that copy your minions. In the Sealed Archives, destroy the index page to cancel the announced main action; enemy minions can still attack. Progress through Story, Elite, and Master to pursue different chapter equipment pools.
 
-Charge the wax seal, break it open, and reveal five cards one by one. Each rarity has its own light and sound; new cards join your collection, while copies beyond the collection limit turn into gold.
+[h2]Take your build into Endless.[/h2]
 
-[h2]Three chapters. Three defenses to unravel.[/h2]
+Clear all three chapters on Story to unlock Endless. Your deck and equipment lock when the run begins. Face a boss every fifth floor, push your personal best, and bank your score when the run ends.
 
-Furnaces power the mine’s boss. Mirrors copy your latest minion. An index page announces the archive’s next main action.
+Redeem settled points for ten animated card backs, alongside the classic default. These cosmetics do not change stats or draw order, and spending points does not reduce your personal best.
 
-Destroy the furnaces, break the mirrors, and interrupt the index. Test your build against a different mechanic in each chapter. Each chapter has separate equipment pools for Story, Elite, and Master. Unlock higher difficulties and pursue their exclusive gear.
-
-Blue-black woodcut battlefields and pale paper cards set the stage for each decision. [b]From the ashes, reforge your strategy.[/b]
-
-[h2]Game features[/h2]
+[h2]Current development content[/h2]
 
 [list]
-[*]20-card decks and five friendly minion slots, with regular cards retained between turns.
-[*]48 collectible cards and 6 token types, with three schools you can mix.
-[*]Four gear slots, 16 equipment bases, 16 affixes, and 12 core items.
-[*]Three expedition chapters and three bosses with distinct mechanics; Story, Elite, and Master unlock through progression.
-[*]Ten editable build recipes, permanent loot, a choice of three chapter rewards, and card packs purchased with earned gold.
+[*]96 collectible cards, twenty-card decks, five friendly minion slots, and regular hands retained between turns.
+[*]Four equipment slots; 28 equipment types made up of 16 bases and 12 core items.
+[*]Three chapters with distinct bosses and Story, Elite, and Master progression.
+[*]Permanent collections, earned-gold five-card packs, and chapter reward choices.
+[*]Endless challenges unlocked after all three Story clears; locked loadout and a boss every fifth floor.
+[*]Ten animated cosmetic card backs plus the classic default.
 [/list]
+
+1.1.0 development content · Scott1743 · 2026-10-14. The game is in development. Release date, price, supported platforms, and Steam store details have not been announced here. The two promotional films use English narration and English + Chinese subtitles.

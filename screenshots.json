@@ -1,0 +1,151 @@
+{
+  "updated_at": "2026-10-14",
+  "current_english_images": 8,
+  "retained_earlier_images": 8,
+  "image_manipulation": "none — exact native 1920×1080 captures",
+  "records": [
+    {
+      "path": "assets/screenshots/01-battle-embers.png",
+      "source": "steam/marketing/source/two-video-20261014/capture/screenshots/chapter-boss-0.png",
+      "captured_at": "2026-10-14",
+      "runtime_version": "1.1.0",
+      "interface_language": "en",
+      "title_en": "Ember Mines · Cards and minions",
+      "title_zh": "余烬矿井 · 契牌与随从的战场",
+      "feature": "battle",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 2233165,
+      "sha256": "9ab9016acfb4dcabb3958046def4287f332e7af221d6818682b391b0a0e1e753",
+      "superseded_sha256": "41582bbfeed24f9a364b949774cfe4cdf60a559ba66c38368cc132d6f24369b7",
+      "visual_review": "Viewed original capture; caption matches visible content. No pixel edits or cropping."
+    },
+    {
+      "path": "assets/screenshots/08-deckbuilding.png",
+      "source": "steam/marketing/source/two-video-20261014/capture/screenshots/starter-deck.png",
+      "captured_at": "2026-10-14",
+      "runtime_version": "1.1.0",
+      "interface_language": "en",
+      "title_en": "Deckbuilding · Twenty cards",
+      "title_zh": "构筑牌组 · 20 张契牌",
+      "feature": "cards",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1875214,
+      "sha256": "e2069e61712823c01488e2eacfd86a78c2d5e695d119d06b09099a06f96a10e8",
+      "superseded_sha256": "b5189449674030f43082298e105bebe2080c6d2cdc5a18547198f9269d681177",
+      "visual_review": "Viewed original capture; caption matches visible content. No pixel edits or cropping."
+    },
+    {
+      "path": "assets/screenshots/09-equipment.png",
+      "source": "steam/marketing/source/two-video-20261014/capture/screenshots/gear-four-slots.png",
+      "captured_at": "2026-10-14",
+      "runtime_version": "1.1.0",
+      "interface_language": "en",
+      "title_en": "Equipment · Four-slot loadouts",
+      "title_zh": "装备图鉴 · 四槽构筑",
+      "feature": "equipment",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1324290,
+      "sha256": "ba2c8f9ded6f5f6be997b4f5b379f74bc21de0d9de44b2297807ea081d7859aa",
+      "superseded_sha256": "dd434e5adc2b10bf363b3fe9579ab552a2f064d55f7dcbfce190aafbd56d9b50",
+      "visual_review": "Viewed original capture; caption matches visible content. No pixel edits or cropping."
+    },
+    {
+      "path": "assets/screenshots/14-rest-stop.png",
+      "source": "steam/marketing/source/two-video-20261014/capture/screenshots/card-back-sovereign.png",
+      "captured_at": "2026-10-14",
+      "runtime_version": "1.1.0",
+      "interface_language": "en",
+      "title_en": "Card backs · Preview Endless Sovereign",
+      "title_zh": "卡背收藏 · 预览无尽君临",
+      "feature": "cards",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1920260,
+      "sha256": "ace907befe0aade2ed4c5b07b7ad6ec9dde21369032ce17f0f75bec7f4878d19",
+      "superseded_sha256": "5007fb19a3357ac6317de9e50cea8ca20d4fdb7f4d959ec9bdbca785e1e4d0ed",
+      "visual_review": "Viewed original capture; caption matches visible content. No pixel edits or cropping."
+    },
+    {
+      "path": "assets/screenshots/06-camp.png",
+      "source": "steam/marketing/source/two-video-20261014/capture/screenshots/endless-unlocked.png",
+      "captured_at": "2026-10-14",
+      "runtime_version": "1.1.0",
+      "interface_language": "en",
+      "title_en": "Endless · Prepare your next challenge",
+      "title_zh": "无尽回廊 · 准备下一场挑战",
+      "feature": "journey",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1376997,
+      "sha256": "d6707abeaa296a5b181f524481e505c980c0416ec02551643189609e3d32ec8f",
+      "superseded_sha256": "7847931b5b52e75cd8481c39ec4e2afbfa80bdae83b3d0a52a809ca197b4c12c",
+      "visual_review": "Viewed original capture; caption matches visible content. No pixel edits or cropping."
+    },
+    {
+      "path": "assets/screenshots/04-mirror-boss.png",
+      "source": "steam/marketing/source/two-video-20261014/capture/screenshots/chapter-boss-1.png",
+      "captured_at": "2026-10-14",
+      "runtime_version": "1.1.0",
+      "interface_language": "en",
+      "title_en": "Mirror Workshop · Break the mirrors",
+      "title_zh": "镜域工坊 · 击碎复写镜面",
+      "feature": "boss",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 2363719,
+      "sha256": "cbf0d1670b5e24107a8c636829ed557459a2483abd8fd5ae54e937c1c11e7594",
+      "superseded_sha256": "cf8296faa8f45cb81fae36023cfbee95bd60a05ebc9125d45bc7b2ff0ca0af7a",
+      "visual_review": "Viewed original capture; caption matches visible content. No pixel edits or cropping."
+    },
+    {
+      "path": "assets/screenshots/05-archive-boss.png",
+      "source": "steam/marketing/source/two-video-20261014/capture/screenshots/archive-heavy-plan.png",
+      "captured_at": "2026-10-14",
+      "runtime_version": "1.1.0",
+      "interface_language": "en",
+      "title_en": "Sealed Archives · Read the intent",
+      "title_zh": "封存档案 · 阅读预告",
+      "feature": "boss",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 2147529,
+      "sha256": "3379c9577c92b0cb167af8c381abe71411cc87db8971c66d39f1906ad6cdb308",
+      "superseded_sha256": "34643292c64a4185a39ad9f2384ca14daeaf8f50095d995ac27e30ac08ad8b04",
+      "visual_review": "Viewed original capture; caption matches visible content. No pixel edits or cropping."
+    },
+    {
+      "path": "assets/screenshots/15-pack-reveal.png",
+      "source": "steam/marketing/source/two-video-20261014/capture/screenshots/classic-pack-reveal.png",
+      "captured_at": "2026-10-14",
+      "runtime_version": "1.1.0",
+      "interface_language": "en",
+      "title_en": "Pack opening · New cards and excess-copy gold",
+      "title_zh": "开包结算 · 新牌入册与超额返金",
+      "feature": "cards",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1437585,
+      "sha256": "dd54f7ed317ceb263e880c5bf630aaa5a75a5d4b7c43b05e8292726d2348a7c9",
+      "superseded_sha256": "1c52be73a3a328ae9a5103876f810b60316d9a631981d3f07fb52c11c5b7077e",
+      "visual_review": "Viewed original capture; caption matches visible content. No pixel edits or cropping."
+    }
+  ],
+  "not_selected": [
+    {
+      "source": "collection-all.png",
+      "reason": "The initial capture had a Resume Your Deck Draft dialog; production recaptured it. The gallery uses the already-clear starter-deck view instead."
+    },
+    {
+      "source": "gear-comparison.png",
+      "reason": "Current/replace headings still contain Chinese text; chose clear four-slot equipment view."
+    }
+  ],
+  "validation": {
+    "all_dimensions_1920x1080": true,
+    "source_destination_hashes_match": true,
+    "caption_visual_review_complete": true
+  }
+}

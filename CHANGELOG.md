@@ -1,5 +1,14 @@
 # 灰契行者宣发更新日志
 
+## 1.1.0 development content · Media r1 · 2026-10-14
+
+- Replace the current three-film presentation with one main trailer and one combat / core gameplay guide.
+- English narration, burned English + Chinese subtitles, and separate English / Chinese / bilingual caption files.
+- English-first website with an in-place Chinese language switch; both videos retain their playback elements and position when language changes.
+- Current full development scope: 96 cards, 28 equipment types (16 bases + 12 core items), three chapters, Endless, and 10 animated card backs plus the classic default.
+- Endless unlocks after all three Story chapter clears. Card backs are cosmetic and use settled Endless points.
+- Keep `pre_release` status; this is a media update, not a game release. Retain old tags and earlier gallery provenance.
+
 ## 1.0.0 首发版 · 素材修订 r4 · 2026-10-14
 
 - 主预告和构筑篇的全部开包片段换入新版青铜边框、余烬晶石牌背，包括构筑篇开头的短镜头。
@@ -31,7 +40,7 @@
 - 旧升级与重铸截图移入历史目录，当前下载入口指向 1.0.0 宣发材料。
 - 宣发版本跟随游戏版本；同一游戏版本的文案、视频与页面调整使用独立素材修订号。
 
-## 后续 1.1.0 · 计划中
+## 历史规划 · 1.0.0 宣发时的后续 1.1.0 草案（已由当前范围取代）
 
 - 无尽回廊。
 - 可收藏契牌从 48 张扩充至 84 张。
